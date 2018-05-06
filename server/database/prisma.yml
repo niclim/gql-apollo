@@ -6,7 +6,10 @@ stage: dev
 
 # to disable authentication:
 # disableAuth: true
+# secret is here.. oh well
 secret: mysecret123
 
 # the file path pointing to your data model
 datamodel: datamodel.graphql
+
+cluster: public-cordwarlock-973/prisma-us1
